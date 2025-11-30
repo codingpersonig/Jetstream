@@ -347,7 +347,6 @@ body {
 
     #adPanel {
         margin-top: 50px;
-        padding: 0 10px;
     }
 
     #adPanel h1 {
@@ -356,20 +355,20 @@ body {
     }
 
     #ad1 {
-        width: 50%;
+        width: 90%;
         height: auto;
         flex-direction: column;
         border-radius: 20px;
     }
 
     #ad1Img {
-        width: 100%;
+        width: 90%;
         height: 200px;
         border-radius: 20px 20px 0 0;
     }
 
     #ad1Details {
-        width: 100%;
+        width: 90%;
         padding: 20px;
     }
 
@@ -454,4 +453,3 @@ body {
     }
 
 }
-
