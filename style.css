@@ -5,6 +5,7 @@
 body {
     background: white;
     margin: 0;
+    overflow-x: hidden;
 }
 
 #flexContainer {
@@ -449,4 +450,5 @@ body {
     }
 
 }
+
 
