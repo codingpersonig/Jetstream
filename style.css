@@ -329,7 +329,7 @@ body {
 @media (max-width: 768px) {
     #header {
         height: 50px;
-        padding: 0 10px;
+        width: 100%;
     }
 
     #logo {
@@ -447,4 +447,5 @@ body {
         padding: 3px 6px;
         font-size: 12px;
     }
+
 }
