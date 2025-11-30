@@ -1,0 +1,450 @@
+* {
+    user-select: text;
+}
+
+body {
+    background: white;
+    margin: 0;
+}
+
+#flexContainer {
+    display: flex;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom right, rgb(32, 32, 32), rgb(75, 75, 75));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    filter: invert(1);
+}
+
+#header nav {
+    margin-right: 20px;
+}
+
+#header nav a button {
+    padding: 5px 10px;
+    background: rgb(255, 255,255);
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+}
+
+#header nav a button:hover {
+    transform: scale(1.05) translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+#header nav a button:active {
+    transform: scale(0.95) translateY(0px);
+    transition: all 0.2s ease;
+}
+
+#adPanel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+#adPanel h1 {
+    font-size: 46px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#adPanel a {
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#ad1 {
+    width: 90%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    background: linear-gradient(to bottom right, rgb(32, 32, 32), rgb(75, 75, 75));
+    margin-top: 20px;
+}
+
+#ad1Img {
+    width: 30%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    object-fit: cover;
+}
+
+#ad1Details {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+#ad1Brand {
+    font-size: 18px;
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+#ad1Offer {
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+#ad1TradeInOffer {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 0;
+    margin-top: 0;
+}
+
+#ad1ShopNowBtn {
+    width: 120px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+#ad1ShopNowBtn:hover {
+    transform: scale(1.05) translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+#ad1ShopNowBtn:active {
+    transform: scale(0.95) translateY(0px);
+    transition: all 0.2s ease;
+}
+
+#benefits {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+#benefitsHeader {
+    font-size: 26px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#grandBenefitsContainer {
+    display: flex;
+}
+
+#benefitsContainer {
+    width: 300px;
+    height: 525px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(32, 32, 32), rgb(75, 75, 75));
+    margin: 20px;
+}
+
+#benefitsContainerImg {
+    width: 300px;
+    height: 262.5px;
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+}
+
+#benefitsContainerType {
+    font-size: 12px;
+    color: lightgray;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#benefitsContainerBenefit {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#benefitsContainerDescription {
+    font-size: 8px;
+    color: lightgray;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+#footer {
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(32, 32, 32), rgb(75, 75, 75));
+    padding: 40px 20px 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+#footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+#footerBrand {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerLogo {
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+    margin-bottom: 15px;
+}
+
+#footerDescription {
+    font-size: 14px;
+    color: lightgray;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#footerNavigation {
+    flex: 1;
+}
+
+#footerNavigation h3 {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 0 15px 0;
+}
+
+#footerNavigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footerNavigation ul li {
+    margin-bottom: 8px;
+}
+
+#footerNavigation ul li a {
+    font-size: 14px;
+    color: lightgray;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#footerNavigation ul li a:hover {
+    color: white;
+}
+
+#footerSocial {
+    flex: 1;
+}
+
+#footerSocial h3 {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 0 15px 0;
+}
+
+#socialLinks {
+    display: flex;
+    gap: 15px;
+}
+
+#socialLinks a {
+    color: lightgray;
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#socialLinks a:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+#footerBottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#footerCopy {
+    font-size: 14px;
+    color: lightgray;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    #header {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    #logo {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    #header nav a button {
+        padding: 4px 8px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    #adPanel {
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+
+    #adPanel h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #ad1 {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    #ad1Img {
+        width: 100%;
+        height: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #ad1Details {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #ad1Offer {
+        font-size: 20px;
+    }
+
+    #ad1ShopNowBtn {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    #benefitsHeader {
+        font-size: 22px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #grandBenefitsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #benefitsContainer {
+        width: 280px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    #benefitsContainerImg {
+        width: 280px;
+        height: 200px;
+    }
+
+    #benefitsContainerDescription {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    #footerContent {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #footerNavigation,
+    #footerSocial {
+        text-align: center;
+    }
+
+    #socialLinks {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #adPanel h1 {
+        font-size: 24px;
+    }
+
+    #ad1 {
+        width: 98%;
+        margin: 10px auto;
+    }
+
+    #benefitsContainer {
+        width: 260px;
+    }
+
+    #benefitsContainerImg {
+        width: 260px;
+    }
+
+    #header nav a button {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+}
