@@ -351,7 +351,7 @@ body {
     }
 
     #adPanel h1 {
-        font-size: 32px;
+        font-size: 24px;
         text-align: center;
     }
 
@@ -359,32 +359,32 @@ body {
         width: 95%;
         height: auto;
         flex-direction: column;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 
     #ad1Img {
         width: 100%;
-        height: 200px;
-        border-radius: 20px 20px 0 0;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
     }
 
     #ad1Details {
         width: 100%;
-        padding: 20px;
+        padding: 15px;
     }
 
     #ad1Offer {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #ad1ShopNowBtn {
-        width: 100px;
-        height: 35px;
-        font-size: 14px;
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
     }
 
     #benefitsHeader {
-        font-size: 22px;
+        font-size: 18px;
         margin-left: 10px;
         text-align: center;
     }
@@ -395,14 +395,14 @@ body {
     }
 
     #benefitsContainer {
-        width: 280px;
+        width: 240px;
         height: auto;
         margin: 10px auto;
     }
 
     #benefitsContainerImg {
-        width: 280px;
-        height: 200px;
+        width: 240px;
+        height: 150px;
     }
 
     #benefitsContainerDescription {
@@ -454,8 +454,3 @@ body {
     }
 
 }
-
-
-
-
-
