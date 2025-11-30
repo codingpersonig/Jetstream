@@ -356,7 +356,7 @@ body {
     }
 
     #ad1 {
-        width: 90%;
+        width: 50%;
         height: auto;
         flex-direction: column;
         border-radius: 20px;
@@ -454,3 +454,4 @@ body {
     }
 
 }
+
