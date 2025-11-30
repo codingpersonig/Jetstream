@@ -381,7 +381,8 @@ body {
     }
 
     #ad1TradeInOffer {
-        font-size: 8px;
+        font-size: 5px;
+        color: red;
     }
 
     #ad1ShopNowBtn {
@@ -461,4 +462,3 @@ body {
     }
 
 }
-
