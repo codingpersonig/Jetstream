@@ -330,7 +330,7 @@ body {
 @media (max-width: 768px) {
     #header {
         height: 50px;
-        width: 100%;
+        width: 100vw;
     }
 
     #logo {
@@ -410,6 +410,10 @@ body {
         margin-bottom: 15px;
     }
 
+    #footer {
+        width: 100vw;
+    }
+
     #footerContent {
         flex-direction: column;
         gap: 20px;
@@ -450,6 +454,7 @@ body {
     }
 
 }
+
 
 
 
