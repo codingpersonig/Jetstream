@@ -330,7 +330,7 @@ body {
 @media (max-width: 768px) {
     #header {
         height: 50px;
-        width: 100vw;
+        width: 100%;
     }
 
     #logo {
@@ -411,7 +411,7 @@ body {
     }
 
     #footer {
-        width: 100vw;
+        width: 100%;
     }
 
     #footerContent {
@@ -454,6 +454,7 @@ body {
     }
 
 }
+
 
 
 
